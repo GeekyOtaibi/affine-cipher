@@ -1,0 +1,56 @@
+.row.content {
+    min-height: 450px
+}
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    min-height: 100vh;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #555;
+    color: white;
+    text-align: center;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.document {
+    margin: 0 auto;
+    padding-top: 64px;
+    max-width: 1280px;
+    width: 94%;
+    margin-bottom: 4rem;
+}
+
+.document h1 {
+    margin-top: 0;
+}
+
+pre code {
+    display: block;
+    margin: 0;
+    padding: 1em;
+    background: #eee;
+}
